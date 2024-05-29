@@ -1,0 +1,15 @@
+Project 4 rough draft 
+
+Predicting home values.....
+
+ [Forecasting the Zillow Home Value Index Using Three ML Techniques](https://nycdatascience.com/blog/student-works/capstone/forecasting-the-zillow-home-value-index-using-three-ml-techniques/) 
+
+[End To End Machine Learning Project To Predict Housing Prices In California]https://lukeclarke12.medium.com/end-to-end-machine-learning-project-to-predict-housing-prices-in-california-e58cb10b2005
+
+[10 Real Estate Data Science Projects](https://www.interviewquery.com/p/real-estate-data-science-projects)
+
+
+[Zillow Economic Data] (https://www.kaggle.com/datasets/zillow/zecon)
+
+
+[Housing Data](https://www.zillow.com/research/data/)
