@@ -22,7 +22,6 @@ Sources used are as follows:
 [A Practical Approach to Linear Regression in Machine Learning] (https://towardsdatascience.com/linear-regression-5100fe32993a)
 [Keras Applications] (https://keras.io/api/applications/#usage-examples-for-image-classification-models)
 [VGG16 and VGG19] (https://keras.io/api/applications/vgg/#vgg19-function)
-![image](https://github.com/LinetOsoro/Home-Sales-Prediction/assets/150875359/368591e0-46d8-4b1c-9d3b-15df1fa53c8f)
 https://plotly.com/python/treemaps/
 https://plotly.com/python/setting-graph-size/
 https://github.com/cphalpert/census-regions/blob/master/us%20census%20bureau%20regions%20and%20divisions.csv
