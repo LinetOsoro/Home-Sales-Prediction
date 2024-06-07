@@ -9,12 +9,12 @@ This project aimed to predict housing prices using Zillow information and machin
 
 
 # Methodology
-Data Loading and Preprocessing:
-Read the CSV file into a Spark DataFrame.
+Data Loading and Preprocessing
+Read the CSV file into a Spark DataFrame
 Dropped non-beneficial columns and handled missing values
 Converted data types and encoded categorical variables
 Converted Spark DataFrame into a pandas DataFrame
-Feature Selection and Target Definition:
+Feature Selection and Target Definition: Our Targer was Price, Features were State, Bedroom, Bathroom, Area, ConvertedLot. 
 Defined features (X) and the target variable (y) for the machine learning models.
 Train-Test Split the dataset into training and testing sets
 Feature StandardScaler to ensure mean 0 and variance 1
@@ -23,6 +23,18 @@ Model Testing.
 
 # Analysis
 The data was cleaned, and different machine learning models were trained and tested to predict home prices. We evaluated the performance of each model and documented their accuracy percentages. The analysis provided insights into the effectiveness of various machine learning methods in predicting housing prices.
+
+### Random Forest Regression Model
+This model seems to have moderate performance. With the R^2 score of approximately 0.65 explains approximately the variance in the target variable. The model suggests moderate prediction.
+
+### Decision Tree Regression Model  
+R^2 score being negative (50%) suggests that the model performs worse than a horizontal line, which is not uncommon in some scenarios but generally indicates a poor fit.
+
+### Linear Regression Model 
+R^2 score for training was 41% and test was 30%,  a high MSE value indicates that the model's predictions are far from the actual values on average.The model performed poorly. 
+
+### Support Vector Machine(SVM) it was 46%.
+A lower MSE indicates better model performance. A lower RMSE values indicate better model performance. An R^2 score of 0.46 suggests that the model explains approximately 46% of the variance in the target variable. Std measures the dispersion of the actual target values around the mean. It provides context for interpreting the MSE and RMSE values.
 
 ## Collaboration
 This project was a collaborative effort among team members with the assistance of tutors. The code is original and was developed using a combination of class assignments, tutor guidance, and instructor support.
