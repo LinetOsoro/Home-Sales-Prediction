@@ -1,48 +1,57 @@
 # Home-Sales-Prediction
-Jennifer Savage, Madeline Riley, Linet Osoro
 
-The purpose of this project was to solve a problem or answer a question using machine learning methods. 
+ 
+## Authors: Jennifer Savage, Madeline Riley, Linet Osoro
 
-The purpose of this project was to determine if data taken from Zillow could be run through machine learning methods to predict the price of the home with any degree of accuracy. The data was cleaned, trained and tested and run through several different machine learning methods to display the percent of accuracy the methods returned. 
+## Overview
+This project aimed to predict housing prices using Zillow information and machine learning techniques. We sought to determine if data from Zillow could be effectively processed through various machine learning algorithms to predict home prices accurately. Random Forest, Decision Tree, Support Vector Machine, and Linear Regression models were utilized for this analysis.
 
-We used Random Forest, Decision Tree, Support Vector Machine, and Linear Regression Model.
 
-Analysis: talk about ml methods and results/accuracy
+# Methodology
+Data Loading and Preprocessing:
+Read the CSV file into a Spark DataFrame.
+Explained the data columns.
+Dropped non-beneficial columns and handled missing values.
+Converted data types and encoded categorical variables.
+Converted Spark DataFrame into a pandas DataFrame.
+Feature Selection and Target Definition:
+Defined features (X) and the target variable (y) for the machine learning models.
+Train-Test Split:
+Split the dataset into training and testing sets.
+Feature Scaling:
+Standardized features using StandardScaler to ensure mean 0 and variance 1.
+Model Training and Prediction 
 
-This project was done in collaboration with classmates with the assistance of of tutors. The code is original and was created using the help of class assignments, tutors, and instructors. 
 
-Sources used are as follows: 
+# Analysis
+The data was cleaned, and different machine learning models were trained and tested to predict home prices. We evaluated the performance of each model and documented their accuracy percentages. The analysis provided insights into the effectiveness of various machine learning methods in predicting housing prices.
 
-[Forecasting the Zillow Home Value Index Using Three ML Techniques](https://nycdatascience.com/blog/student-works/capstone/forecasting-the-zillow-home-value-index-using-three-ml-techniques/) 
+## Collaboration and Sources
+This project was a collaborative effort among team members with the assistance of tutors. The code is original and was developed using a combination of class assignments, tutor guidance, and instructor support.
 
-[End To End Machine Learning Project To Predict Housing Prices In California]https://lukeclarke12.medium.com/end-to-end-machine-learning-project-to-predict-housing-prices-in-california-e58cb10b2005
+## Sources Used:
+Forecasting the Zillow Home Value Index Using Three ML Techniques
+End To End Machine Learning Project To Predict Housing Prices In California
+10 Real Estate Data Science Projects
+Zillow Economic Data
+Housing Data
+Zillow House Price Data
+A Practical Approach to Linear Regression in Machine Learning
+Keras Applications
+VGG16 and VGG19
+Additional sources and tutorials as mentioned in the project.
 
-[10 Real Estate Data Science Projects](https://www.interviewquery.com/p/real-estate-data-science-projects)
+## Additional Resources and References:
+Plotly Treemaps
+Plotly Setting Graph Size
+US Census Regions and Divisions
+Deep Neural Networks for Regression Problems
+Random Forest Algorithm
+Decision Tree Algorithm
+House Price Prediction using Machine Learning in Python
+An Intuitive Explanation of Convolutional Neural Networks
 
-[Zillow Economic Data] (https://www.kaggle.com/datasets/zillow/zecon)
+## Repository
+The code and files for this project are available on GitHub.
 
-[Housing Data](https://www.zillow.com/research/data/)
 
-[Zillow House Price] (Datahttps://www.kaggle.com/datasets/paultimothymooney/zillow-house-price-data)
-
-[A Practical Approach to Linear Regression in Machine Learning] (https://towardsdatascience.com/linear-regression-5100fe32993a)
-
-[Keras Applications] (https://keras.io/api/applications/#usage-examples-for-image-classification-models)
-
-[VGG16 and VGG19] (https://keras.io/api/applications/vgg/#vgg19-function)
-
-https://plotly.com/python/treemaps/
-
-https://plotly.com/python/setting-graph-size/
-
-https://github.com/cphalpert/census-regions/blob/master/us%20census%20bureau%20regions%20and%20divisions.csv
-
-https://towardsdatascience.com/deep-neural-networks-for-regression-problems-81321897ca33
-
-https://www.geeksforgeeks.org/random-forest-algorithm-in-machine-learning/
-https://www.geeksforgeeks.org/decision-tree/
-
-[An Intuitive Explanation of Convolutional Neural Networks] (https://ujjwalkarn.me/2016/08/11/intuitive-explanation-convnets/)
-https://www.geeksforgeeks.org/house-price-prediction-using-machine-learning-in-python/
-
-![image](https://github.com/LinetOsoro/Home-Sales-Prediction/assets/150875359/708f09df-1955-40b9-b42d-920e6fb99f4d)
