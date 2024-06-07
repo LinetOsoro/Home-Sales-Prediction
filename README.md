@@ -33,7 +33,7 @@ R^2 score being negative (50%) suggests that the model performs worse than a hor
 ### Linear Regression Model 
 R^2 score for training was 41% and test was 30%,  a high MSE value indicates that the model's predictions are far from the actual values on average.The model performed poorly. 
 
-### Support Vector Machine(SVM) it was 46%.
+### Support Vector Machine(SVM)
 A lower MSE indicates better model performance. A lower RMSE values indicate better model performance. An R^2 score of 0.46 suggests that the model explains approximately 46% of the variance in the target variable. Std measures the dispersion of the actual target values around the mean. It provides context for interpreting the MSE and RMSE values.
 
 ## Collaboration
