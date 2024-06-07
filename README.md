@@ -10,15 +10,25 @@ This project aimed to predict housing prices using Zillow information and machin
 
 # Methodology
 Data Loading and Preprocessing
+
 Read the CSV file into a Spark DataFrame
+
 Dropped non-beneficial columns and handled missing values
+
 Converted data types and encoded categorical variables
+
 Converted Spark DataFrame into a pandas DataFrame
+
 Feature Selection and Target Definition: Our Targer was Price, Features were State, Bedroom, Bathroom, Area, ConvertedLot. 
+
 Defined features (X) and the target variable (y) for the machine learning models.
+
 Train-Test Split the dataset into training and testing sets
+
 Feature StandardScaler to ensure mean 0 and variance 1
+
 Model Training and Prediction 
+
 Model Testing. 
 
 # Analysis
