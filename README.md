@@ -35,16 +35,29 @@ Model Testing.
 The data was cleaned, and different machine learning models were trained and tested to predict home prices. We evaluated the performance of each model and documented their accuracy percentages. The analysis provided insights into the effectiveness of various machine learning methods in predicting housing prices.
 
 ### Random Forest Regression Model
+Random Forest Regression Model
+Random Forest Regression is an ensemble learning technique based on Decision Tree Regression. It combines the predictions of multiple individual decision trees to improve the overall predictive accuracy and reduce overfitting. Random Forest Regression is a powerful and widely used regression technique suitable for a wide range of regression problems, including prediction, forecasting, and modeling complex systems.
+
 This model seems to have moderate performance. With the R^2 score of approximately 0.65 explains approximately the variance in the target variable. The model suggests moderate prediction.
 
 ### Decision Tree Regression Model  
+Decision Tree Regression is a supervised machine learning algorithm used for regression tasks. It works by recursively partitioning the feature space into regions and fitting a simple model (usually a constant value) to each region.
+
 R^2 score being negative (50%) suggests that the model performs worse than a horizontal line, which is not uncommon in some scenarios but generally indicates a poor fit.
 
 ### Linear Regression Model 
+Linear Regression is a fundamental supervised machine learning algorithm used for predictive analysis. It models the relationship between a dependent variable (target) and one or more independent variables (features) by fitting a linear equation to observed data.
+
 R^2 score for training was 41% and test was 30%,  a high MSE value indicates that the model's predictions are far from the actual values on average.The model performed poorly. 
 
 ### Support Vector Machine(SVM)
+
+Its primary objective is to find the optimal hyperplane that separates data points belonging to different classes in a high-dimensional space. It is used for classification and regression tasks.
+
 A lower MSE indicates better model performance. A lower RMSE values indicate better model performance. An R^2 score of 0.46 suggests that the model explains approximately 46% of the variance in the target variable. Std measures the dispersion of the actual target values around the mean. It provides context for interpreting the MSE and RMSE values.
+
+### Conclusion
+Of the 4 methods used Random Forest Regression performed better at 65% followed by Decision Tree Reghreesion at 50%, then Support Vector Machine at 46%, Linear Regression did poorly at 41% training and 36% testing. 
 
 ## Collaboration
 This project was a collaborative effort among team members with the assistance of tutors. The code is original and was developed using a combination of class assignments, tutor guidance, and instructor support.
