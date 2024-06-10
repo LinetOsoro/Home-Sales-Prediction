@@ -91,4 +91,14 @@ This project was a collaborative effort among team members with the assistance o
 ## Repository
 The code and files for this project are available on GitHub. https://github.com/LinetOsoro/Home-Sales-Prediction 
 
+Graphs -- contains all the plots
+
+Resources -- contain the original_extracted_df.csv and all the other data used 
+
+Project_4_Colab_final -- contains the Colab with the code for machine learning
+
+Visualizations.ipynb -- contains the code for the analysis 
+
+Project4.pptx -- has the PowerPoints
+
 
